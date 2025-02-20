@@ -1,7 +1,6 @@
 import {
   Playfair_Display,
   Cinzel,
-  Bodoni_Moda,
   Prata,
   Montserrat
 } from "next/font/google"
@@ -9,7 +8,6 @@ import {
 // Load Fonts
 const playfair = Playfair_Display({ subsets: ["latin"] })
 const cinzel = Cinzel({ subsets: ["latin"] })
-const bodoni = Bodoni_Moda({ subsets: ["latin"] })
 const prata = Prata({
   subsets: ["latin"],
   weight: "400"
@@ -30,7 +28,7 @@ export default function FontShowcase() {
 
           {/* Zara */}
           <h1 
-            className={`${bodoni.className} text-2xl md:text-4xl text-white font-bold opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300 cursor-pointer`}
+            className={`${playfair.className} text-2xl md:text-4xl text-white font-bold opacity-80 hover:opacity-100 hover:scale-105 transition-all duration-300 cursor-pointer`}
           >
             Zara
           </h1>
