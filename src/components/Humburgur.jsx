@@ -3,7 +3,7 @@
 import { TiThMenu } from "react-icons/ti";
 import Link from "next/link";
 import { useState } from "react";
-import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "../components/ui/sheet";
 
 
 const SHEET_SIDES = ["right"];
